@@ -1,0 +1,75 @@
+	Overview of the Data Analysis Workflow							
+								
+	an exciting and rewarding journey as a data analyst at a movie production company - "Cinematic Wonders.".							
+	My mission is to help them create their new blockbuster through smart data analysis							
+								
+1	Problem statement: Clearly define the problem or question you want to address.							
+2	Formalization of the problem: Break down the problem statement into specific, measurable tasks.							
+3	Data collection and processing: Gather and clean the necessary data to address the tasks.							
+4	Data analysis: Apply statistical and analytical techniques to uncover insights and patterns in the data.							
+5	Presentation of results: Summarise and visualise your findings in a clear and concise manner.							
+6	Formulation of conclusions/recommendations: Based on your analysis, provide actionable insights and recommendations.							
+								
+								
+								
+								
+	Question To Analyze Data Set							
+								
+Q1	Which two movies have missing release dates?							
+Ans	The Gold Rush							
+	What Ever Happened to Baby Jane?							
+								
+Q2	What is the approximate average box office revenue for movies released after 2010?							
+Ans	$500 million							
+								
+Q3	Is your Part A revenue greater than the overall average revenue for all 250 movies?							
+Ans	YES							
+								
+Q4	In your Recent Top Movies sheet, extract the primary genre for each movie after the year 2010. If there are multiple genres for a movie, consider the first one to be the primary genre							
+								
+Ans	Using the LEFT function (along with FIND to find the first comma in a string of genres), to extract the primary genre for each movie in your Recent Top Movies sheet into a new column.							
+	Create a new sheet for each primary genre and copy over the associated data for that particular genre by filtering accordingly.							
+	Calculate the average IMDb rating and box office revenue for each genre							
+	Primary Genre	Average IMDB Rating	Average Box office Revanue					
+	Action	8.18	775,258,594.83					
+	Adventure	8.16	671,206,253.40					
+	Animation	8.13	627,422,280.67					
+	Biography	8.14	225,780,977.20					
+	Comedy	8.2	446,092,357					
+	Crime	8.1	196,577,429.33					
+	Drama	8.24	145,716,706.20					
+								
+Q4.1	Which genre has the highest average ratings?							
+Ans	Drama							
+Q4.2	Which genre has the highest average revenue?							
+Ans	Action							
+								
+	Label movies that are longer than or equal to the average runtime as “Long” and Label movies that are shorter than the average runtime as “Short”							
+Q5	Which movies have higher average IMDb ratings?							
+Ans	Long Movies							
+		Average Run Time	Average IMDB rating					
+	Long Movies	152	8.3					
+	Short Movies	106	8.2					
+								
+Q6	Director Performance Analysis							
+	Is Nolan's average revenue for movies after 2010 greater than the overall average revenue of top movies after 2010?							
+Ans	YES							
+	Average revenue for movies after 2010                    =			1,081,041,287				
+	Overall average revenue of top 250 movies            =			679,405,235.17				
+								
+Q7	Actor Performance Analysis							
+								
+	total box office revenue for after 2010							
+	Leonardo DiCaprio		924,951,197.00					
+	Hugh Jackman		741,306,637.00					
+	Harrison Ford		2,068,223,624					
+								
+								
+								
+	Using our findings, let’s now provide recommendations for the movie production company based on the insights guided from the data.							
+								
+	What makes a movie successful? What kinds of projects should the company target in the future?							
+								
+	Well, it seems that based on our calculated statistics:							
+	In order to make a movie financially successful, the company should cast Harrison Ford in the lead role of an action movie.							
+	In order to make a critically acclaimed movie, the company should create a drama film with a long runtime.							
